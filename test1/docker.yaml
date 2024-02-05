@@ -1,0 +1,12 @@
+---
+- name: 
+  hosts: localhost
+  become: yes
+
+ 
+  tasks:
+    - name: nginx
+      apt:
+        name: nginx
+        state: present
+
