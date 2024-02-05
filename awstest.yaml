@@ -1,7 +1,0 @@
----
-- name: nginx 배포
-  hosts: localhost
-  become: no
-
-  tasks:
-  
